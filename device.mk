@@ -29,6 +29,10 @@ PRODUCT_COPY_FILES += \
 #PRODUCT_PACKAGES += \
     CMActions
 
+#Gello Integration
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PACKAGE_OVERLAYS)/packages/apps/Gello/org.cyanogenmod.gello.browser.apk:system/priv-app/Gello/org.cyanogenmod.gello.browser.apk
+
 # Ramdisk
 PRODUCT_PACKAGES += \
     init.target.rc
