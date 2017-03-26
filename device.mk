@@ -31,7 +31,7 @@ PRODUCT_COPY_FILES += \
 
 #Gello Integration
 PRODUCT_COPY_FILES += \
-    $(DEVICE_PACKAGE_OVERLAYS)/packages/apps/Gello/org.cyanogenmod.gello.browser.apk:system/priv-app/Gello/org.cyanogenmod.gello.browser.apk
+    $(DEVICE_PACKAGE_OVERLAYS)/packages/apps/Gello/org.cyanogenmod.gello.browser.apk:system/priv-app/Gello/Gello.apk
 
 # Ramdisk
 PRODUCT_PACKAGES += \
